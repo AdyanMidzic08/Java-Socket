@@ -4,7 +4,7 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.nio.charset.StandardCharsets;
 
-public class HttpResponse {
+public class  HttpResponse {
     private String responseLine;
     private String[] headers;
     private byte[] body;

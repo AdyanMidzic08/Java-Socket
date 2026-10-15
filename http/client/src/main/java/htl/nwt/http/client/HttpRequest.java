@@ -33,7 +33,7 @@ public class HttpRequest {
         }
 
         if (body != null) {
-            os.write(("Content-Length" + body.length).getBytes(StandardCharsets.UTF_8));
+            os.write(("Content-Length " + body.length).getBytes(StandardCharsets.UTF_8));
             os.write(DELIMETER);
         }
 

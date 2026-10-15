@@ -4,12 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3d1997cd-b716-4010-888c-bf180d5a0a74" name="Changes" comment="Try-Catch added">
-      <change afterPath="$PROJECT_DIR$/http/client/src/main/java/htl/nwt/http/client/HttpRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/http/client/src/main/java/htl/nwt/http/client/HttpResponse.java" afterDir="false" />
+    <list default="true" id="3d1997cd-b716-4010-888c-bf180d5a0a74" name="Changes" comment="HttpRequest and HttpResponse created">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/http/client/src/main/java/htl/nwt/http/client/HttpClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/http/client/src/main/java/htl/nwt/http/client/HttpClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/http/client/target/classes/htl/nwt/http/client/HttpClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/http/client/target/classes/htl/nwt/http/client/HttpClient.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/http/client/src/main/java/htl/nwt/http/client/HttpRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/http/client/src/main/java/htl/nwt/http/client/HttpRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/http/client/src/main/java/htl/nwt/http/client/HttpResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/http/client/src/main/java/htl/nwt/http/client/HttpResponse.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,24 +33,21 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "AdyanMidzic08"
-  }
+  "lastFilter": {}
 }]]></component>
   <component name="GithubPullRequestsUISettings"><![CDATA[{
   "selectedUrlAndAccountId": {
     "url": "git@github.com:AdyanMidzic08/Java-Socket.git",
-    "accountId": "255d71ae-e95e-4f14-95e3-dc9a41115cc3"
+    "accountId": "e1c7361c-a8a4-48da-86ee-2fd72893a831"
   }
 }]]></component>
-  <component name="KubernetesApiPersistence"><![CDATA[{}]]></component>
-  <component name="KubernetesApiProvider"><![CDATA[{
-  "isMigrated": true
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 8
-}]]></component>
+  <component name="KubernetesApiPersistence">{}</component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
   <component name="ProjectId" id="3K5Fte4ALERALPzkyahQKu8srUf" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -64,7 +62,11 @@
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
     "git-widget-placeholder": "main",
+    "junie.onboarding.icon.badge.shown": "true",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "/Users/adyanmidzic/Documents/schule/3.Klasse/NWT/NWT/pom.xml",
     "node.js.detected.package.eslint": "true",
@@ -75,6 +77,7 @@
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
+    "to.speed.mode.migration.done": "true",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -101,8 +104,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-30f59d01ecdd-2fc7cc6b9a17-intellij.indexing.shared.core-IU-253.30387.90" />
-        <option value="bundled-js-predefined-d6986cc7102b-9b0f141eb926-JavaScript-IU-253.30387.90" />
+        <option value="bundled-jdk-30f59d01ecdd-a203e0a19954-intellij.indexing.shared.core-IU-262.10968.63" />
+        <option value="bundled-js-predefined-d6986cc7102b-4abd2a77f808-JavaScript-IU-262.10968.63" />
       </set>
     </attachedChunks>
   </component>
@@ -113,7 +116,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1790839737575</updated>
-      <workItem from="1790839738590" duration="7661000" />
+      <workItem from="1790839738590" duration="9885000" />
+      <workItem from="1790938835872" duration="18000" />
+      <workItem from="1791443360090" duration="1592000" />
     </task>
     <task id="LOCAL-00001" summary="Try-Catch added">
       <option name="closed" value="true" />
@@ -123,7 +128,15 @@
       <option name="project" value="LOCAL" />
       <updated>1790845264212</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="HttpRequest and HttpResponse created">
+      <option name="closed" value="true" />
+      <created>1790852313947</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1790852313947</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -154,7 +167,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Try-Catch added" />
-    <option name="LAST_COMMIT_MESSAGE" value="Try-Catch added" />
+    <MESSAGE value="HttpRequest and HttpResponse created" />
+    <option name="LAST_COMMIT_MESSAGE" value="HttpRequest and HttpResponse created" />
   </component>
   <component name="github-copilot-workspace">
     <instructionFileLocations>
