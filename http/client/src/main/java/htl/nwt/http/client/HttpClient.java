@@ -29,7 +29,7 @@ public class HttpClient {
             InputStream is = socket.getInputStream();
             HttpResponse response = new HttpResponse();
             response.receive(is);
-            //log.fine(new String(response.getBody(),StandardCharsets.UTF_8));
+            System.out.println(new String(response.getBody(),StandardCharsets.UTF_8));
         } catch (IOException e) {
             log.severe(e.getMessage());
         }

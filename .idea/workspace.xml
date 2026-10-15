@@ -5,12 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3d1997cd-b716-4010-888c-bf180d5a0a74" name="Changes" comment="HttpRequest and HttpResponse created">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/http/client/src/main/java/htl/nwt/http/client/HttpRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/http/client/src/main/java/htl/nwt/http/client/HttpRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/http/client/src/main/java/htl/nwt/http/client/HttpClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/http/client/src/main/java/htl/nwt/http/client/HttpClient.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/http/client/src/main/java/htl/nwt/http/client/HttpResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/http/client/src/main/java/htl/nwt/http/client/HttpResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/http/client/target/classes/htl/nwt/http/client/HttpResponse.class" beforeDir="false" afterPath="$PROJECT_DIR$/http/client/target/classes/htl/nwt/http/client/HttpResponse.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,6 +43,65 @@
   <component name="KubernetesApiProvider">{
   &quot;isMigrated&quot;: true
 }</component>
+  <component name="NextEditCompletionFeaturesState">
+    <decayedCancelled>
+      <entry key="MS100" value="1.3618381237664396E-34" />
+      <entry key="MS500" value="1.6858739404357603E-7" />
+      <entry key="S2" value="0.020263118041422036" />
+      <entry key="S5" value="0.2102241038134286" />
+      <entry key="S10" value="0.45850202290309383" />
+      <entry key="S30" value="0.7722008640055852" />
+      <entry key="S60" value="0.9155588635645764" />
+      <entry key="M2" value="1.2814172137800646" />
+      <entry key="M5" value="4.104685247556722" />
+      <entry key="M10" value="10.80403119688289" />
+      <entry key="M15" value="16.105899874480762" />
+      <entry key="M30" value="25.015294355063876" />
+      <entry key="H1" value="32.55348716846206" />
+      <entry key="H2" value="38.504530471021376" />
+      <entry key="H4" value="42.62524529330286" />
+      <entry key="D1" value="46.99424707008131" />
+      <entry key="W1" value="47.853262485969076" />
+    </decayedCancelled>
+    <decayedSelected>
+      <entry key="MS100" value="1.000000000141356" />
+      <entry key="MS500" value="1.0121092695567275" />
+      <entry key="S2" value="1.5149249492469419" />
+      <entry key="S5" value="2.1534420727937045" />
+      <entry key="S10" value="2.5231098706251567" />
+      <entry key="S30" value="3.009252401375513" />
+      <entry key="S60" value="3.3948577756475444" />
+      <entry key="M2" value="3.9682567956714396" />
+      <entry key="M5" value="6.719209423154037" />
+      <entry key="M10" value="14.398612940684076" />
+      <entry key="M15" value="20.946173438693375" />
+      <entry key="M30" value="32.25678693258557" />
+      <entry key="H1" value="41.49491178269764" />
+      <entry key="H2" value="48.21671706896775" />
+      <entry key="H4" value="52.582255076304605" />
+      <entry key="D1" value="57.006297167227274" />
+      <entry key="W1" value="57.8555387695805" />
+    </decayedSelected>
+    <decayedShown>
+      <entry key="MS100" value="9.430753946339455E-9" />
+      <entry key="MS500" value="0.027896025829881974" />
+      <entry key="S2" value="0.7842817332958998" />
+      <entry key="S5" value="1.901855780051547" />
+      <entry key="S10" value="2.704457079860149" />
+      <entry key="S30" value="3.67221283336759" />
+      <entry key="S60" value="4.250958272220675" />
+      <entry key="M2" value="5.216602811597939" />
+      <entry key="M5" value="10.802240682995143" />
+      <entry key="M10" value="25.17932831254412" />
+      <entry key="M15" value="37.029445162820195" />
+      <entry key="M30" value="57.254684927259994" />
+      <entry key="H1" value="74.03723891624874" />
+      <entry key="H2" value="86.71477885985801" />
+      <entry key="H4" value="95.20397874448419" />
+      <entry key="D1" value="103.99990890306638" />
+      <entry key="W1" value="105.70870916795239" />
+    </decayedShown>
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 8
 }</component>
