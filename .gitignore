@@ -1,0 +1,12 @@
+# Maven build output
+target/
+
+# IntelliJ IDEA
+.idea/
+*.iml
+
+# Claude Code local settings
+.claude/settings.local.json
+
+# macOS
+.DS_Store
