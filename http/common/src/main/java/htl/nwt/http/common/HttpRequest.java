@@ -1,4 +1,4 @@
-package htl.nwt.http.client;
+package htl.nwt.http.common;
 
 import java.io.IOException;
 import java.io.OutputStream;

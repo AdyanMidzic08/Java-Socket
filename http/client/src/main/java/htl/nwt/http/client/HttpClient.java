@@ -1,11 +1,13 @@
 package htl.nwt.http.client;
 
+import htl.nwt.http.common.HttpRequest;
+import htl.nwt.http.common.HttpResponse;
+
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.OutputStream;
 import java.net.Socket;
 import java.nio.charset.StandardCharsets;
-import java.sql.SQLOutput;
 import java.util.logging.Logger;
 
 public class HttpClient {

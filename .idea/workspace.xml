@@ -4,11 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3d1997cd-b716-4010-888c-bf180d5a0a74" name="Changes" comment="HttpRequest and HttpResponse created">
+    <list default="true" id="3d1997cd-b716-4010-888c-bf180d5a0a74" name="Changes" comment="Content added and finished">
+      <change afterPath="$PROJECT_DIR$/http/common/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/http/client/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/http/client/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/http/client/src/main/java/htl/nwt/http/client/HttpClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/http/client/src/main/java/htl/nwt/http/client/HttpClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/http/client/src/main/java/htl/nwt/http/client/HttpResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/http/client/src/main/java/htl/nwt/http/client/HttpResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/http/client/target/classes/htl/nwt/http/client/HttpResponse.class" beforeDir="false" afterPath="$PROJECT_DIR$/http/client/target/classes/htl/nwt/http/client/HttpResponse.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/http/client/src/main/java/htl/nwt/http/client/HttpRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/http/common/src/main/java/htl/nwt/http/common/HttpRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/http/client/src/main/java/htl/nwt/http/client/HttpResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/http/common/src/main/java/htl/nwt/http/common/HttpResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/http/client/target/classes/htl/nwt/http/client/HttpClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/http/client/target/classes/htl/nwt/http/client/HttpClient.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/http/client/target/classes/htl/nwt/http/client/HttpRequest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/http/client/target/classes/htl/nwt/http/client/HttpResponse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/http/client/target/http-client-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/http/client/target/http-client-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,76 +39,76 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {}
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "git@github.com:AdyanMidzic08/Java-Socket.git",
-    "accountId": "e1c7361c-a8a4-48da-86ee-2fd72893a831"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {}
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;git@github.com:AdyanMidzic08/Java-Socket.git&quot;,
+    &quot;accountId&quot;: &quot;e1c7361c-a8a4-48da-86ee-2fd72893a831&quot;
   }
-}]]></component>
+}</component>
   <component name="KubernetesApiPersistence">{}</component>
   <component name="KubernetesApiProvider">{
   &quot;isMigrated&quot;: true
 }</component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.3618381237664396E-34" />
-      <entry key="MS500" value="1.6858739404357603E-7" />
-      <entry key="S2" value="0.020263118041422036" />
-      <entry key="S5" value="0.2102241038134286" />
-      <entry key="S10" value="0.45850202290309383" />
-      <entry key="S30" value="0.7722008640055852" />
-      <entry key="S60" value="0.9155588635645764" />
-      <entry key="M2" value="1.2814172137800646" />
-      <entry key="M5" value="4.104685247556722" />
-      <entry key="M10" value="10.80403119688289" />
-      <entry key="M15" value="16.105899874480762" />
-      <entry key="M30" value="25.015294355063876" />
-      <entry key="H1" value="32.55348716846206" />
-      <entry key="H2" value="38.504530471021376" />
-      <entry key="H4" value="42.62524529330286" />
-      <entry key="D1" value="46.99424707008131" />
-      <entry key="W1" value="47.853262485969076" />
+      <entry key="MS100" value="1.0" />
+      <entry key="MS500" value="1.0001210661519644" />
+      <entry key="S2" value="1.2076922286760445" />
+      <entry key="S5" value="2.654157160743482" />
+      <entry key="S10" value="5.87400902844253" />
+      <entry key="S30" value="16.54119027969484" />
+      <entry key="S60" value="26.8146915632639" />
+      <entry key="M2" value="38.44249468327433" />
+      <entry key="M5" value="53.341877068277924" />
+      <entry key="M10" value="61.65210893276882" />
+      <entry key="M15" value="65.15617697838354" />
+      <entry key="M30" value="71.17388959455394" />
+      <entry key="H1" value="82.95496533090213" />
+      <entry key="H2" value="101.4288141192996" />
+      <entry key="H4" value="119.8546085005818" />
+      <entry key="D1" value="144.5579260274232" />
+      <entry key="W1" value="150.04248769961518" />
     </decayedCancelled>
     <decayedSelected>
-      <entry key="MS100" value="1.000000000141356" />
-      <entry key="MS500" value="1.0121092695567275" />
-      <entry key="S2" value="1.5149249492469419" />
-      <entry key="S5" value="2.1534420727937045" />
-      <entry key="S10" value="2.5231098706251567" />
-      <entry key="S30" value="3.009252401375513" />
-      <entry key="S60" value="3.3948577756475444" />
-      <entry key="M2" value="3.9682567956714396" />
-      <entry key="M5" value="6.719209423154037" />
-      <entry key="M10" value="14.398612940684076" />
-      <entry key="M15" value="20.946173438693375" />
-      <entry key="M30" value="32.25678693258557" />
-      <entry key="H1" value="41.49491178269764" />
-      <entry key="H2" value="48.21671706896775" />
-      <entry key="H4" value="52.582255076304605" />
-      <entry key="D1" value="57.006297167227274" />
-      <entry key="W1" value="57.8555387695805" />
+      <entry key="MS100" value="1.676467783285392E-8" />
+      <entry key="MS500" value="0.027854299488915657" />
+      <entry key="S2" value="0.4388876226949731" />
+      <entry key="S5" value="0.9671292711953338" />
+      <entry key="S10" value="1.5530544389556722" />
+      <entry key="S30" value="3.482254589260511" />
+      <entry key="S60" value="5.647259669923765" />
+      <entry key="M2" value="8.418816600621016" />
+      <entry key="M5" value="12.393565806276628" />
+      <entry key="M10" value="14.73171703487869" />
+      <entry key="M15" value="15.74600567794386" />
+      <entry key="M30" value="17.99335470917968" />
+      <entry key="H1" value="25.31705898469842" />
+      <entry key="H2" value="39.70921687649203" />
+      <entry key="H4" value="55.350491143648675" />
+      <entry key="D1" value="77.20377474672165" />
+      <entry key="W1" value="82.13658714642257" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="9.430753946339455E-9" />
-      <entry key="MS500" value="0.027896025829881974" />
-      <entry key="S2" value="0.7842817332958998" />
-      <entry key="S5" value="1.901855780051547" />
-      <entry key="S10" value="2.704457079860149" />
-      <entry key="S30" value="3.67221283336759" />
-      <entry key="S60" value="4.250958272220675" />
-      <entry key="M2" value="5.216602811597939" />
-      <entry key="M5" value="10.802240682995143" />
-      <entry key="M10" value="25.17932831254412" />
-      <entry key="M15" value="37.029445162820195" />
-      <entry key="M30" value="57.254684927259994" />
-      <entry key="H1" value="74.03723891624874" />
-      <entry key="H2" value="86.71477885985801" />
-      <entry key="H4" value="95.20397874448419" />
-      <entry key="D1" value="103.99990890306638" />
-      <entry key="W1" value="105.70870916795239" />
+      <entry key="MS100" value="0.08362047218082723" />
+      <entry key="MS500" value="0.6147261679424875" />
+      <entry key="S2" value="1.387031817550016" />
+      <entry key="S5" value="3.418857487256492" />
+      <entry key="S10" value="7.229294802519618" />
+      <entry key="S30" value="19.81256518166534" />
+      <entry key="S60" value="32.28469495268566" />
+      <entry key="M2" value="46.72705766348722" />
+      <entry key="M5" value="65.653557571556" />
+      <entry key="M10" value="76.33423567040957" />
+      <entry key="M15" value="80.86661495669374" />
+      <entry key="M30" value="89.14721460428942" />
+      <entry key="H1" value="108.25946629736353" />
+      <entry key="H2" value="141.1295428566247" />
+      <entry key="H4" value="175.19970601409466" />
+      <entry key="D1" value="221.76054012202326" />
+      <entry key="W1" value="232.1789006844288" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -113,6 +122,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.HttpClient.executor": "Run",
+    "JAR Application.wget.jar.executor": "Run",
     "Maven.nwt [install].executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -125,7 +135,7 @@
     "git-widget-placeholder": "main",
     "junie.onboarding.icon.badge.shown": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/adyanmidzic/Documents/schule/3.Klasse/NWT/NWT/pom.xml",
+    "last_opened_file_path": "/Users/adyanmidzic/Documents/schule/3.Klasse/NWT/NWT/http/common",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -138,7 +148,12 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/http/common" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.HttpClient">
     <configuration name="HttpClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="htl.nwt.http.client.HttpClient" />
       <module name="http-client" />
@@ -152,9 +167,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="wget.jar" type="JarApplication" temporary="true">
+      <option name="JAR_PATH" value="$PROJECT_DIR$/http/client/target/wget.jar" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.HttpClient" />
+        <item itemvalue="JAR Application.wget.jar" />
       </list>
     </recent_temporary>
   </component>
@@ -225,7 +245,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Try-Catch added" />
     <MESSAGE value="HttpRequest and HttpResponse created" />
-    <option name="LAST_COMMIT_MESSAGE" value="HttpRequest and HttpResponse created" />
+    <MESSAGE value="Content added and finished" />
+    <option name="LAST_COMMIT_MESSAGE" value="Content added and finished" />
   </component>
   <component name="github-copilot-workspace">
     <instructionFileLocations>
